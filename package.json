@@ -1,5 +1,5 @@
 {
-  "name": "renovate-config",
+  "name": "@lemon-sour/renovate-config",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:lemon-sour/renovate-config.git",
