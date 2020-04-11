@@ -1,0 +1,15 @@
+{
+  "name": "renovate-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lemon-sour/renovate-config.git",
+  "author": "hisamatsu yoshiyuki <hisasann25@gmail.com>",
+  "license": "MIT",
+  "renovate-config": {
+    "default": {
+      "extends": [
+        "config:base"
+      ]
+    }
+  }
+}
