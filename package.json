@@ -2,14 +2,23 @@
   "name": "@lemon-sour/renovate-config",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "test": "renovate-config-validator"
+  },
   "repository": "git@github.com:lemon-sour/renovate-config.git",
   "author": "hisamatsu yoshiyuki <hisasann25@gmail.com>",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "renovate-config": {
     "default": {
       "extends": [
         "config:base"
       ]
     }
+  },
+  "devDependencies": {
+    "renovate": "^19.205.0"
   }
 }
