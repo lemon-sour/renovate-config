@@ -15,7 +15,13 @@
     "default": {
       "extends": [
         "config:base"
-      ]
+      ],
+      "timezone": "Asia/Tokyo",
+      "schedule": ["every weekend"],
+      "labels": ["renovate"],
+      "minor": {
+        "groupName": "all dependencies"
+      }
     }
   },
   "devDependencies": {
