@@ -1,1 +1,1 @@
-# renovate-config
+# 🍯 renovate-config
