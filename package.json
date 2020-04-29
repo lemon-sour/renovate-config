@@ -13,13 +13,18 @@
   },
   "renovate-config": {
     "default": {
+      "description": "Default config for lemon-sour.js repository",
       "extends": [
-        "config:base"
+        "config:base",
+        "group:allNonMajor",
+        ":semanticCommitTypeAll(chore)"
       ],
-      "timezone": "Asia/Tokyo",
-      "labels": ["renovate"],
-      "minor": {
-        "groupName": "all dependencies"
+      "meteor": {
+        "enabled": false
+      },
+      "rangeStrategy": "bump",
+      "npm": {
+        "commitMessageTopic": "{{prettyDepType}} {{depName}}"
       }
     }
   },
