@@ -1,11 +1,12 @@
 {
   "name": "@lemon-sour/renovate-config",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "main": "index.js",
   "scripts": {
-    "release": "standard-version",
-    "push": "git push --follow-tags",
-    "publish": "npm publish"
+    "validate": "renovate-config-validator",
+    "test": "npm run validate",
+    "release": "standard-version && git push --follow-tags && npm publish",
+    "prepare": "npm run test"
   },
   "files": [],
   "repository": "git@github.com:lemon-sour/renovate-config.git",
