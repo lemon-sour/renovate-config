@@ -1,12 +1,13 @@
 {
   "name": "@lemon-sour/renovate-config",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "main": "index.js",
   "scripts": {
     "release": "standard-version",
     "push": "git push --follow-tags",
     "publish": "npm publish"
   },
+  "files": [],
   "repository": "git@github.com:lemon-sour/renovate-config.git",
   "author": "hisamatsu yoshiyuki <hisasann25@gmail.com>",
   "license": "MIT",
