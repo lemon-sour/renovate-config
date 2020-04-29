@@ -1,11 +1,11 @@
 {
   "name": "@lemon-sour/renovate-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "index.js",
   "scripts": {
     "validate": "renovate-config-validator",
     "test": "npm run validate",
-    "release": "standard-version && npm run push && npm publish",
+    "release": "standard-version",
     "push": "git push --follow-tags",
     "publish": "npm publish ./",
     "prepare": "npm run test"
