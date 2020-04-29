@@ -1,11 +1,11 @@
 {
   "name": "@lemon-sour/renovate-config",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "main": "index.js",
   "scripts": {
     "release": "standard-version",
     "push": "git push --follow-tags",
-    "publish": "npm publish ./"
+    "publish": "npm publish"
   },
   "repository": "git@github.com:lemon-sour/renovate-config.git",
   "author": "hisamatsu yoshiyuki <hisasann25@gmail.com>",
